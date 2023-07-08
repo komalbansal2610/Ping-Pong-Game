@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+#container{
+    top: 3px;
+    height:98vh;
+    width:98vw;
+    border:3px solid black;
+    margin-top:3px;
+    margin:auto;
+    position:relative;
+    
+}
+
+.rod{
+    width:100px;
+    height:1rem;
+    border:2px solid purple;
+    background-color: purple;
+    border-radius:30%;
+    position:absolute;
+    align-items: center;
+    transition: all 2s;
+}
+
+#rod1{
+    top:0px;
+}
+
+#rod2{
+    bottom:0px; 
+}
+
+#ball{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    background-color: red;
+    position:absolute;
+    top:48%;
+    left:48%;
+    transition:  all 1s;
+}
