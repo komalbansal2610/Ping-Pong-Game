@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" text="type/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <div class="rod" id="rod1"></div>
-        <div id="ball"></div>
-        <div  class="rod" id="rod2"></div>
+    <div id="game-box">
+    <div id="score-card">
+    <div id="userscore"> 100 </div>
+    </div>
+
+    <div class="rod" id="airod"> AI</div>
+    <div id="ball"> <i id="spin" class="bowling-ball" style="font-size:32"></i></div>
+    <div  class="rod" id="userrod"> YOU</div>
     </div>
     <script src="pp.js" ></script>
 </body>
